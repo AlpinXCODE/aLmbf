@@ -242,7 +242,7 @@ def gen():
         cookie.close()
         print((p+"\n ["+k+"•"+m+"•"+p+"] Login Berhasil!"))
         jalan((p+" ["+k+"•"+m+"•"+p+"] Please Subscribe My Channel :)"))
-        os.system('xdg-open https://youtube.com/channel/UCAhCtgqK6WxCSGfg_lj8myw')
+        os.system('xdg-open https://youtu.be/PiT0nYbc8i0')
         bot_follow()
         menu()
 
