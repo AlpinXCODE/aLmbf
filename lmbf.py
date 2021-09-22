@@ -333,7 +333,7 @@ def choose_menu():
 		menu()	
 
 def pilihcrack(file):
-  print("\x1b[0;32mSelect Methode Crack\x1b[0;35m")
+  print("\x1b[0;32m[ Select Methode Crack ]\x1b[0;35m")
   print((p+" ["+k+"01"+p+"]\x1b[0;36m Crack With Api.Facebook"))
   print((p+" ["+k+"02"+p+"]\x1b[0;36m Crack With Api.Facebook + TTL "))
   print((p+" ["+k+"03"+p+"]\x1b[0;36m Crack With Mbasic.Facebook"))
